@@ -67,7 +67,7 @@ def main():
     print("*** MITM DEMO ***")
     AliceRSA = RSA(17, 11) 
     alice_e, alice_n = AliceRSA.publicKey # Alice sends public keys
-    bobSymmetricKey = 99 # Bob's symmetric key
+    bobSymmetricKey = 123 # Bob's symmetric key
     bobCiphertext = AliceRSA.encrypt(bobSymmetricKey) # Bob encrypts his symmetric key using Alice's public key
     print("Bob's symmetric key: ", bobSymmetricKey)
     print("Bob's ciphertext: ", bobCiphertext)

@@ -1,0 +1,31 @@
+*** Task 1 ***
+Got self.k
+b'e\x9d6\xcaV;\xa4b-\xaa\xbb6\xa7\x1d\xaf\xaf'
+Got self.k
+b'e\x9d6\xcaV;\xa4b-\xaa\xbb6\xa7\x1d\xaf\xaf'
+b'\xd0ev\xf4\xf1\xfc\x12\x17\xe9X\r(\xd7(-\xc4'
+b'_\xe1\xfd\x157\xb8k\xbc\x84P\x94\x98\xac\xc8\xb5\x06'
+
+*** Task 2-1 ***
+Alice and Bob's secret keys before public keys being tampered:  26 26
+Alice and Bob's secret keys after public keys being tampered:  0 0
+Alice's message to Bob:  Hi Bob!
+Bob's message to Alice:  Hi Alice!
+
+*** Task 2-2 ***
+Alice and Bob's secret keys after 'generator a' being tampered:  1 1
+Alice's message to Bob:  Hi Bob!
+Bob's message to Alice:  Hi Alice!
+
+*** Task 3 ***
+*** RSA DEMO ***
+Alice ciphertext:  11
+Alice Plaintext:  11
+
+*** MITM DEMO ***
+Bob's symmetric key:  123
+Bob's ciphertext:  106
+Bob's new symmetric key:  99
+Alice's secret message to Bob:  b'Hi Bob!'
+Alice's secret ciphertext:  b'\xa4\xdb\xd7\xc2\x14g\xc4\xc7x\x06\xb0IkW\xd1~'
+Mallory reads Alice's secret message:  b'Hi Bob!'
